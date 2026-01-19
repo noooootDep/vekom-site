@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессиональное обучение - ВЕком</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <nav class="top-nav">
+                <a href="about.html">О центре</a>
+                <a href="professions.html">Стоимость</a>
+                <a href="#">Новости</a>
+                <a href="professions.html">Корпоративное обучение</a>
+            </nav>
+            <div class="top-links">
+                <a href="mailto:info@vekom18.ru" class="top-link">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                        <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                    info@vekom18.ru
+                </a>
+                <a href="https://rostechnadzor.gov.ru/" target="_blank" class="top-link gov-link">Ростехнадзор</a>
+                <a href="https://mintrud.gov.ru/" target="_blank" class="top-link gov-link">Минтруд России</a>
+                <a href="https://minobrnauki.gov.ru/" target="_blank" class="top-link gov-link">Минобразования и науки
+                    РФ</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="22" stroke="#93C572" stroke-width="3" />
+                            <circle cx="25" cy="25" r="14" stroke="#93C572" stroke-width="2" />
+                            <circle cx="25" cy="25" r="6" fill="#93C572" />
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">ЦЕНТР ОБРАЗОВАНИЯ</span>
+                        <span class="logo-subtitle">ООО «ВЕКОМ»</span>
+                    </div>
+                </a>
+                <div class="license-info">
+                    <span class="license-years">С 2012 года обучаем работников, руководителей и специалистов</span>
+                    <a href="licenses.html" class="license-btn">
+                        Лицензия №0009567
+                        <span class="check-icon">✓</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="rating">
+                    <span class="rating-stars">★ 4.7</span>
+                    <span class="rating-text">Рейтинг на основе отзывов</span>
+                </div>
+                <div class="phone-section">
+                    <span class="work-hours">Пн-Пт: 10:00-19:00</span>
+                    <a href="tel:+79090546505" class="phone-number">+7 909 054-65-05</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container nav-content">
+            <div class="nav-links">
+                <a href="about.html" class="nav-link">Сведения об образовательной организации</a>
+                <a href="contacts.html" class="nav-link">Контакты</a>
+                <a href="https://sdo.vekom-18.ru/" target="_blank" class="nav-link">Войти в личный кабинет</a>
+                <a href="question.html" class="nav-link">Задать вопрос</a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск">
+                <button class="search-btn" aria-label="Поиск">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="secondary-nav">
+        <div class="container">
+            <div class="secondary-nav-links">
+                <a href="licenses.html" class="secondary-nav-link">Лицензии и аккредитации</a>
+                <a href="safety.html" class="secondary-nav-link">Обучение по охране труда</a>
+                <a href="professions.html" class="secondary-nav-link active">Профессиональное обучение</a>
+                <a href="documentation.html" class="secondary-nav-link">Разработка документации</a>
+                <a href="audit.html" class="secondary-nav-link">Аудит охраны труда</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Профессиональное обучение по рабочим профессиям</h1>
+                <p class="page-description">Обучение с выдачей свидетельства о присвоении квалификации</p>
+            </div>
+
+            <div class="filter-bar">
+                <span class="filter-label">Фильтр:</span>
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="construction">Строительство</button>
+                <button class="filter-btn" data-filter="industry">Промышленность</button>
+                <button class="filter-btn" data-filter="logistics">Логистика</button>
+            </div>
+
+            <div class="professions-grid">
+                <div class="profession-card" data-category="construction">
+                    <h3>Стропальщик</h3>
+                    <div class="profession-meta"><span>72 часа</span><span>Разряд: 2-6</span></div>
+                    <p class="profession-price">3 500 ₽</p>
+                    <a href="question.html" class="profession-btn">Записаться</a>
+                </div>
+                <div class="profession-card" data-category="logistics">
+                    <h3>Водитель погрузчика</h3>
+                    <div class="profession-meta"><span>72 часа</span><span>Категория: В</span></div>
+                    <p class="profession-price">4 000 ₽</p>
+                    <a href="question.html" class="profession-btn">Записаться</a>
+                </div>
+                <div class="profession-card" data-category="industry">
+                    <h3>Слесарь-ремонтник</h3>
+                    <div class="profession-meta"><span>120 часов</span><span>Разряд: 2-6</span></div>
+                    <p class="profession-price">4 500 ₽</p>
+                    <a href="question.html" class="profession-btn">Записаться</a>
+                </div>
+                <div class="profession-card" data-category="industry">
+                    <h3>Электромонтер</h3>
+                    <div class="profession-meta"><span>72 часа</span><span>Группа: II-V</span></div>
+                    <p class="profession-price">3 500 ₽</p>
+                    <a href="question.html" class="profession-btn">Записаться</a>
+                </div>
+                <div class="profession-card" data-category="construction">
+                    <h3>Машинист крана</h3>
+                    <div class="profession-meta"><span>160 часов</span><span>Разряд: 4-6</span></div>
+                    <p class="profession-price">8 000 ₽</p>
+                    <a href="question.html" class="profession-btn">Записаться</a>
+                </div>
+                <div class="profession-card" data-category="industry">
+                    <h3>Сварщик</h3>
+                    <div class="profession-meta"><span>120 часов</span><span>Разряд: 2-6</span></div>
+                    <p class="profession-price">6 000 ₽</p>
+                    <a href="question.html" class="profession-btn">Записаться</a>
+                </div>
+                <div class="profession-card" data-category="logistics">
+                    <h3>Водитель автомобиля</h3>
+                    <div class="profession-meta"><span>72 часа</span><span>Категория: BC</span></div>
+                    <p class="profession-price">3 000 ₽</p>
+                    <a href="question.html" class="profession-btn">Записаться</a>
+                </div>
+                <div class="profession-card" data-category="construction">
+                    <h3>Монтажник</h3>
+                    <div class="profession-meta"><span>72 часа</span><span>Разряд: 2-5</span></div>
+                    <p class="profession-price">3 500 ₽</p>
+                    <a href="question.html" class="profession-btn">Записаться</a>
+                </div>
+            </div>
+
+            <div class="info-block">
+                <h2>После обучения вы получите:</h2>
+                <ul class="check-list">
+                    <li>Свидетельство о присвоении квалификации установленного образца</li>
+                    <li>Удостоверение о проверке знаний</li>
+                    <li>Выписку из протокола аттестационной комиссии</li>
+                    <li>Внесение данных в ФИС ФРДО</li>
+                </ul>
+            </div>
+
+            <div class="cta-section">
+                <h2>Не нашли нужную профессию?</h2>
+                <p>Свяжитесь с нами — мы организуем обучение по любой рабочей профессии</p>
+                <a href="question.html" class="cta-btn">Оставить заявку</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand"><a href="index.html" class="logo">
+                    <div class="logo-icon small"><svg viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="22" stroke="currentColor" stroke-width="3" />
+                            <circle cx="25" cy="25" r="6" fill="currentColor" />
+                        </svg></div><span class="logo-title">ВЕКОМ</span>
+                </a></div>
+            <div class="footer-links"><a href="about.html">Сведения</a><a href="contacts.html">Контакты</a></div>
+            <div class="footer-contacts"><a href="tel:+79090546505">8-909-054-65-05</a></div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 ООО «ВЕком»</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лицензии и аккредитации - ВЕком</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+<!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <nav class="top-nav">
+                <a href="about.html">О центре</a>
+                <a href="professions.html">Стоимость</a>
+                <a href="#">Новости</a>
+                <a href="professions.html">Корпоративное обучение</a>
+            </nav>
+            <div class="top-links">
+                <a href="mailto:info@vekom18.ru" class="top-link">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                        <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                    info@vekom18.ru
+                </a>
+                <a href="https://rostechnadzor.gov.ru/" target="_blank" class="top-link gov-link">Ростехнадзор</a>
+                <a href="https://mintrud.gov.ru/" target="_blank" class="top-link gov-link">Минтруд России</a>
+                <a href="https://minobrnauki.gov.ru/" target="_blank" class="top-link gov-link">Минобразования и науки РФ</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="22" stroke="#93C572" stroke-width="3" />
+                            <circle cx="25" cy="25" r="14" stroke="#93C572" stroke-width="2" />
+                            <circle cx="25" cy="25" r="6" fill="#93C572" />
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">ЦЕНТР ОБРАЗОВАНИЯ</span>
+                        <span class="logo-subtitle">ООО «ВЕКОМ»</span>
+                    </div>
+                </a>
+                <div class="license-info">
+                    <span class="license-years">С 2012 года обучаем работников, руководителей и специалистов</span>
+                    <a href="licenses.html" class="license-btn">
+                        Лицензия №0009567
+                        <span class="check-icon">✓</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="rating">
+                    <span class="rating-stars">★ 4.7</span>
+                    <span class="rating-text">Рейтинг на основе отзывов</span>
+                </div>
+                <div class="phone-section">
+                    <span class="work-hours">Пн-Пт: 10:00-19:00</span>
+                    <a href="tel:+79090546505" class="phone-number">+7 909 054-65-05</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container nav-content">
+            <div class="nav-links">
+                <a href="about.html" class="nav-link">Сведения об образовательной организации</a>
+                <a href="contacts.html" class="nav-link">Контакты</a>
+                <a href="https://sdo.vekom-18.ru/" target="_blank" class="nav-link">Войти в личный кабинет</a>
+                <a href="question.html" class="nav-link">Задать вопрос</a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск">
+                <button class="search-btn" aria-label="Поиск">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <div class="secondary-nav">
+        <div class="container">
+            <div class="secondary-nav-links">
+                <a href="licenses.html" class="secondary-nav-link active">Лицензии и аккредитации</a>
+                <a href="safety.html" class="secondary-nav-link">Обучение по охране труда</a>
+                <a href="professions.html" class="secondary-nav-link">Профессиональное обучение</a>
+                <a href="documentation.html" class="secondary-nav-link">Разработка документации</a>
+                <a href="audit.html" class="secondary-nav-link">Аудит охраны труда</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Лицензии и аккредитации</h1>
+                <p class="page-description">Документы, подтверждающие право на осуществление образовательной
+                    деятельности</p>
+            </div>
+
+            <div class="licenses-grid">
+                <div class="license-card" onclick="openLightbox(this)">
+                    <div class="license-preview">
+                        <svg viewBox="0 0 200 280" fill="none">
+                            <rect width="200" height="280" fill="#FEF3C7" rx="4" />
+                            <rect x="20" y="20" width="160" height="20" fill="#F59E0B" opacity="0.3" />
+                            <rect x="20" y="50" width="160" height="6" fill="#F59E0B" opacity="0.2" />
+                            <rect x="20" y="65" width="140" height="6" fill="#F59E0B" opacity="0.2" />
+                            <rect x="20" y="80" width="150" height="6" fill="#F59E0B" opacity="0.2" />
+                            <circle cx="100" cy="180" r="40" fill="#EF4444" opacity="0.3" />
+                            <rect x="60" y="230" width="80" height="30" fill="#93C572" opacity="0.3" />
+                        </svg>
+                    </div>
+                    <div class="license-info">
+                        <h3>Лицензия на образовательную деятельность</h3>
+                        <p>№ 0009567 от 15.03.2012</p>
+                        <span class="view-btn">Открыть</span>
+                    </div>
+                </div>
+
+                <div class="license-card" onclick="openLightbox(this)">
+                    <div class="license-preview">
+                        <svg viewBox="0 0 200 280" fill="none">
+                            <rect width="200" height="280" fill="#E0F2FE" rx="4" />
+                            <rect x="20" y="20" width="160" height="20" fill="#93C572" opacity="0.3" />
+                            <rect x="20" y="50" width="160" height="6" fill="#93C572" opacity="0.2" />
+                            <rect x="20" y="65" width="140" height="6" fill="#93C572" opacity="0.2" />
+                            <rect x="20" y="80" width="150" height="6" fill="#93C572" opacity="0.2" />
+                            <rect x="40" y="120" width="120" height="80" fill="#93C572" opacity="0.2" />
+                            <rect x="60" y="220" width="80" height="30" fill="#93C572" opacity="0.3" />
+                        </svg>
+                    </div>
+                    <div class="license-info">
+                        <h3>Приложение к лицензии</h3>
+                        <p>Перечень реализуемых программ</p>
+                        <span class="view-btn">Открыть</span>
+                    </div>
+                </div>
+
+                <div class="license-card" onclick="openLightbox(this)">
+                    <div class="license-preview">
+                        <svg viewBox="0 0 200 280" fill="none">
+                            <rect width="200" height="280" fill="#DCFCE7" rx="4" />
+                            <rect x="20" y="20" width="160" height="20" fill="#22C55E" opacity="0.3" />
+                            <rect x="20" y="50" width="160" height="6" fill="#22C55E" opacity="0.2" />
+                            <rect x="20" y="65" width="140" height="6" fill="#22C55E" opacity="0.2" />
+                            <circle cx="100" cy="160" r="50" stroke="#22C55E" stroke-width="4" fill="none"
+                                opacity="0.4" />
+                            <path d="M80 160l15 15 30-30" stroke="#22C55E" stroke-width="4" fill="none" />
+                        </svg>
+                    </div>
+                    <div class="license-info">
+                        <h3>Свидетельство о регистрации</h3>
+                        <p>ООО «ВЕком»</p>
+                        <span class="view-btn">Открыть</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-block">
+                <h2>Проверить лицензию</h2>
+                <p>Вы можете проверить действительность нашей лицензии на официальном сайте Рособрнадзора:</p>
+                <a href="https://islod.obrnadzor.gov.ru/rlic/" target="_blank" class="external-link">
+                    Реестр лицензий Рособрнадзора
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <div class="lightbox-image">
+                <svg viewBox="0 0 400 560" fill="none">
+                    <rect width="400" height="560" fill="#FEF3C7" rx="8" />
+                    <rect x="40" y="40" width="320" height="40" fill="#F59E0B" opacity="0.3" />
+                    <text x="200" y="70" text-anchor="middle" fill="#92400E" font-size="18"
+                        font-weight="bold">ЛИЦЕНЗИЯ</text>
+                    <rect x="40" y="100" width="320" height="12" fill="#F59E0B" opacity="0.2" />
+                    <rect x="40" y="130" width="280" height="12" fill="#F59E0B" opacity="0.2" />
+                    <rect x="40" y="160" width="300" height="12" fill="#F59E0B" opacity="0.2" />
+                    <rect x="40" y="190" width="260" height="12" fill="#F59E0B" opacity="0.2" />
+                    <circle cx="200" cy="360" r="80" fill="#EF4444" opacity="0.3" />
+                    <rect x="120" y="480" width="160" height="50" fill="#93C572" opacity="0.3" rx="4" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand"><a href="index.html" class="logo">
+                    <div class="logo-icon small"><svg viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="22" stroke="currentColor" stroke-width="3" />
+                            <circle cx="25" cy="25" r="6" fill="currentColor" />
+                        </svg></div><span class="logo-title">ВЕКОМ</span>
+                </a></div>
+            <div class="footer-links"><a href="about.html">Сведения</a><a href="contacts.html">Контакты</a></div>
+            <div class="footer-contacts"><a href="tel:+79090546505">8-909-054-65-05</a></div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 ООО «ВЕком»</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

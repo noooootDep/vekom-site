@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сведения об образовательной организации - ВЕком</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+<!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <nav class="top-nav">
+                <a href="about.html">О центре</a>
+                <a href="professions.html">Стоимость</a>
+                <a href="#">Новости</a>
+                <a href="professions.html">Корпоративное обучение</a>
+            </nav>
+            <div class="top-links">
+                <a href="mailto:info@vekom18.ru" class="top-link">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                        <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                    info@vekom18.ru
+                </a>
+                <a href="https://rostechnadzor.gov.ru/" target="_blank" class="top-link gov-link">Ростехнадзор</a>
+                <a href="https://mintrud.gov.ru/" target="_blank" class="top-link gov-link">Минтруд России</a>
+                <a href="https://minobrnauki.gov.ru/" target="_blank" class="top-link gov-link">Минобразования и науки РФ</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="22" stroke="#93C572" stroke-width="3" />
+                            <circle cx="25" cy="25" r="14" stroke="#93C572" stroke-width="2" />
+                            <circle cx="25" cy="25" r="6" fill="#93C572" />
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">ЦЕНТР ОБРАЗОВАНИЯ</span>
+                        <span class="logo-subtitle">ООО «ВЕКОМ»</span>
+                    </div>
+                </a>
+                <div class="license-info">
+                    <span class="license-years">С 2012 года обучаем работников, руководителей и специалистов</span>
+                    <a href="licenses.html" class="license-btn">
+                        Лицензия №0009567
+                        <span class="check-icon">✓</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="rating">
+                    <span class="rating-stars">★ 4.7</span>
+                    <span class="rating-text">Рейтинг на основе отзывов</span>
+                </div>
+                <div class="phone-section">
+                    <span class="work-hours">Пн-Пт: 10:00-19:00</span>
+                    <a href="tel:+79090546505" class="phone-number">+7 909 054-65-05</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container nav-content">
+            <div class="nav-links">
+                <a href="about.html" class="nav-link">Сведения об образовательной организации</a>
+                <a href="contacts.html" class="nav-link">Контакты</a>
+                <a href="https://sdo.vekom-18.ru/" target="_blank" class="nav-link">Войти в личный кабинет</a>
+                <a href="question.html" class="nav-link">Задать вопрос</a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск">
+                <button class="search-btn" aria-label="Поиск">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Сведения об образовательной организации</h1>
+                <p class="page-description">Информация об ООО «ВЕком» в соответствии с требованиями законодательства РФ
+                </p>
+            </div>
+
+            <div class="accordion-container">
+                <!-- Основные сведения -->
+                <div class="accordion-item" id="basic">
+                    <button class="accordion-header">
+                        <span>Основные сведения</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <table class="info-table">
+                            <tr>
+                                <td>Полное наименование:</td>
+                                <td>Общество с ограниченной ответственностью «ВЕком»</td>
+                            </tr>
+                            <tr>
+                                <td>Сокращенное наименование:</td>
+                                <td>ООО «ВЕком»</td>
+                            </tr>
+                            <tr>
+                                <td>Дата создания:</td>
+                                <td>2012 год</td>
+                            </tr>
+                            <tr>
+                                <td>Учредитель:</td>
+                                <td>Физическое лицо</td>
+                            </tr>
+                            <tr>
+                                <td>Место нахождения:</td>
+                                <td>426008, Удмуртская Республика, г. Ижевск, проезд им. Дерябина, д. 3</td>
+                            </tr>
+                            <tr>
+                                <td>Режим работы:</td>
+                                <td>Понедельник – Пятница: 10:00 – 19:00</td>
+                            </tr>
+                            <tr>
+                                <td>Контактный телефон:</td>
+                                <td><a href="tel:+79090546505">8-909-054-65-05</a></td>
+                            </tr>
+                            <tr>
+                                <td>Электронная почта:</td>
+                                <td><a href="mailto:info@vekom18.ru">info@vekom18.ru</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Структура и органы управления -->
+                <div class="accordion-item" id="structure">
+                    <button class="accordion-header">
+                        <span>Структура и органы управления образовательной организацией</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>Органы управления</h4>
+                        <ul>
+                            <li><strong>Директор</strong> — единоличный исполнительный орган</li>
+                            <li><strong>Общее собрание участников</strong> — высший орган управления</li>
+                        </ul>
+                        <h4>Структурные подразделения</h4>
+                        <p>Филиалов и представительств нет.</p>
+                    </div>
+                </div>
+
+                <!-- Документы -->
+                <div class="accordion-item" id="documents">
+                    <button class="accordion-header">
+                        <span>Документы</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <ul class="doc-list">
+                            <li><a href="licenses.html">Лицензия на осуществление образовательной деятельности</a></li>
+                            <li><a href="#">Устав организации (PDF)</a></li>
+                            <li><a href="#">Свидетельство о государственной регистрации</a></li>
+                            <li><a href="#">Правила внутреннего распорядка</a></li>
+                            <li><a href="#">Положение о режиме занятий обучающихся</a></li>
+                            <li><a href="#">Порядок приема на обучение</a></li>
+                            <li><a href="#">Порядок оформления, приостановления и прекращения отношений</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Образование -->
+                <div class="accordion-item" id="education">
+                    <button class="accordion-header">
+                        <span>Образование</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>Реализуемые образовательные программы</h4>
+                        <table class="info-table">
+                            <tr>
+                                <th>Программа</th>
+                                <th>Форма обучения</th>
+                                <th>Срок обучения</th>
+                            </tr>
+                            <tr>
+                                <td>Охрана труда</td>
+                                <td>Очная/Дистанционная</td>
+                                <td>40 часов</td>
+                            </tr>
+                            <tr>
+                                <td>Оказание первой помощи</td>
+                                <td>Очная/Дистанционная</td>
+                                <td>16 часов</td>
+                            </tr>
+                            <tr>
+                                <td>Использование СИЗ</td>
+                                <td>Очная/Дистанционная</td>
+                                <td>16 часов</td>
+                            </tr>
+                            <tr>
+                                <td>Профессиональное обучение рабочим профессиям</td>
+                                <td>Очная</td>
+                                <td>От 72 часов</td>
+                            </tr>
+                        </table>
+                        <p><strong>Язык обучения:</strong> русский</p>
+                        <p><strong>Использование электронного обучения:</strong> Да, дистанционные образовательные
+                            технологии</p>
+                    </div>
+                </div>
+
+                <!-- Образовательные стандарты -->
+                <div class="accordion-item" id="standards">
+                    <button class="accordion-header">
+                        <span>Образовательные стандарты и требования</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Образовательные программы разработаны в соответствии с:</p>
+                        <ul>
+                            <li>Постановлением Правительства РФ от 24.12.2021 № 2464</li>
+                            <li>Порядком обучения по охране труда и проверки знания требований охраны труда</li>
+                            <li>Профессиональными стандартами соответствующих профессий</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Руководство. Педагогический состав -->
+                <div class="accordion-item" id="staff">
+                    <button class="accordion-header">
+                        <span>Руководство. Педагогический (научно-педагогический) состав</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <h4>Руководство</h4>
+                        <table class="info-table">
+                            <tr>
+                                <td>Должность:</td>
+                                <td>Директор</td>
+                            </tr>
+                            <tr>
+                                <td>Контактный телефон:</td>
+                                <td><a href="tel:+79090546505">8-909-054-65-05</a></td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><a href="mailto:info@vekom18.ru">info@vekom18.ru</a></td>
+                            </tr>
+                        </table>
+                        <h4>Педагогический состав</h4>
+                        <p>Все преподаватели имеют профильное образование и опыт работы в области охраны труда не менее
+                            5 лет.</p>
+                    </div>
+                </div>
+
+                <!-- Материально-техническое обеспечение -->
+                <div class="accordion-item" id="equipment">
+                    <button class="accordion-header">
+                        <span>Материально-техническое обеспечение и оснащенность образовательного процесса</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Учебные аудитории, оснащенные мультимедийным оборудованием</li>
+                            <li>Компьютерный класс с доступом в Интернет</li>
+                            <li>Система дистанционного обучения (СДО)</li>
+                            <li>Учебно-методические материалы</li>
+                            <li>Манекены-тренажеры для обучения первой помощи</li>
+                            <li>Образцы средств индивидуальной защиты</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Платные образовательные услуги -->
+                <div class="accordion-item" id="paid">
+                    <button class="accordion-header">
+                        <span>Платные образовательные услуги</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Все образовательные услуги ООО «ВЕком» являются платными.</p>
+                        <p><a href="professions.html">Ознакомиться со стоимостью курсов →</a></p>
+                        <h4>Порядок оформления</h4>
+                        <ol>
+                            <li>Заполнение заявки на обучение</li>
+                            <li>Заключение договора</li>
+                            <li>Оплата обучения</li>
+                            <li>Прохождение обучения</li>
+                            <li>Получение документов</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Финансово-хозяйственная деятельность -->
+                <div class="accordion-item" id="finance">
+                    <button class="accordion-header">
+                        <span>Финансово-хозяйственная деятельность</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Деятельность осуществляется за счет средств от оказания платных образовательных услуг.</p>
+                        <p>Бюджетное финансирование отсутствует.</p>
+                        <p><a href="requisites.html">Реквизиты организации →</a></p>
+                    </div>
+                </div>
+
+                <!-- Вакантные места -->
+                <div class="accordion-item" id="vacant">
+                    <button class="accordion-header">
+                        <span>Вакантные места для приема (перевода) обучающихся</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Прием на обучение осуществляется в течение всего года по мере формирования групп.</p>
+                        <p>Количество мест не ограничено.</p>
+                        <p><a href="question.html">Записаться на обучение →</a></p>
+                    </div>
+                </div>
+
+                <!-- Доступная среда -->
+                <div class="accordion-item" id="accessible">
+                    <button class="accordion-header">
+                        <span>Доступная среда</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Для лиц с ограниченными возможностями здоровья предусмотрено дистанционное обучение.</p>
+                        <p>При необходимости предоставляется индивидуальный график обучения.</p>
+                    </div>
+                </div>
+
+                <!-- Международное сотрудничество -->
+                <div class="accordion-item" id="international">
+                    <button class="accordion-header">
+                        <span>Международное сотрудничество</span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Международные договоры не заключались.</p>
+                        <p>Иностранные обучающиеся отсутствуют.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon small"><svg viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="22" stroke="currentColor" stroke-width="3" />
+                            <circle cx="25" cy="25" r="6" fill="currentColor" />
+                        </svg></div>
+                    <span class="logo-title">ВЕКОМ</span>
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">Сведения об образовательной организации</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="question.html">Задать вопрос</a>
+            </div>
+            <div class="footer-contacts">
+                <a href="tel:+79090546505">8-909-054-65-05</a>
+                <a href="mailto:info@vekom18.ru">info@vekom18.ru</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 ООО «ВЕком». Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
