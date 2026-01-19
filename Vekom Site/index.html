@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ООО ВЕком - образовательная организация по охране труда. Обучение руководителей, специалистов и рабочих.">
+    <title>ВЕком - Образовательная организация по охране труда</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <nav class="top-nav">
+                <a href="about.html">О центре</a>
+                <a href="professions.html">Стоимость</a>
+                <a href="#">Новости</a>
+                <a href="professions.html">Корпоративное обучение</a>
+            </nav>
+            <div class="top-links">
+                <a href="mailto:info@vekom18.ru" class="top-link">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                        <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                    info@vekom18.ru
+                </a>
+                <a href="https://rostechnadzor.gov.ru/" target="_blank" class="top-link gov-link">Ростехнадзор</a>
+                <a href="https://mintrud.gov.ru/" target="_blank" class="top-link gov-link">Минтруд России</a>
+                <a href="https://minobrnauki.gov.ru/" target="_blank" class="top-link gov-link">Минобразования и науки
+                    РФ</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-section">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="22" stroke="url(#logoGradient)" stroke-width="3" />
+                            <circle cx="25" cy="25" r="14" stroke="url(#logoGradient)" stroke-width="2" />
+                            <circle cx="25" cy="25" r="6" fill="url(#logoGradient)" />
+                            <path d="M25 3v8M25 39v8M3 25h8M39 25h8" stroke="url(#logoGradient)" stroke-width="2"
+                                stroke-linecap="round" />
+                            <defs>
+                                <linearGradient id="logoGradient" x1="0" y1="0" x2="50" y2="50">
+                                    <stop offset="0%" stop-color="#93C572" />
+                                    <stop offset="100%" stop-color="#2563EB" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">ЦЕНТР ОБРАЗОВАНИЯ</span>
+                        <span class="logo-subtitle">ООО «ВЕКОМ»</span>
+                    </div>
+                </a>
+                <div class="license-info">
+                    <span class="license-years">С 2012 года обучаем работников, руководителей и специалистов</span>
+                    <a href="licenses.html" class="license-btn">
+                        Лицензия №0009567
+                        <span class="check-icon">✓</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-right">
+                <a href="#" class="accessibility-btn" title="Версия для слабовидящих">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
+                </a>
+                <div class="rating">
+                    <span class="rating-stars">★ 4.7</span>
+                    <span class="rating-text">Рейтинг на основе отзывов</span>
+                </div>
+                <div class="phone-section">
+                    <span class="work-hours">Пн-Пт: 10:00-19:00</span>
+                    <a href="tel:+79090546505" class="phone-number">+7 909 054-65-05</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container nav-content">
+            <div class="nav-links">
+                <div class="nav-item has-dropdown">
+                    <a href="about.html" class="nav-link">
+                        Сведения об образовательной организации
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6,9 12,15 18,9" />
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="about.html#basic">Основные сведения</a>
+                        <a href="about.html#structure">Структура и органы управления</a>
+                        <a href="about.html#documents">Документы</a>
+                        <a href="about.html#education">Образование</a>
+                        <a href="about.html#standards">Образовательные стандарты</a>
+                        <a href="about.html#staff">Руководство. Педагогический состав</a>
+                        <a href="about.html#equipment">Материально-техническое обеспечение</a>
+                        <a href="about.html#paid">Платные образовательные услуги</a>
+                        <a href="about.html#finance">Финансово-хозяйственная деятельность</a>
+                        <a href="about.html#vacant">Вакантные места</a>
+                        <a href="about.html#accessible">Доступная среда</a>
+                        <a href="about.html#international">Международное сотрудничество</a>
+                    </div>
+                </div>
+                <a href="contacts.html" class="nav-link">Контакты</a>
+                <a href="https://sdo.vekom-18.ru/" target="_blank" class="nav-link">Войти в личный кабинет</a>
+                <a href="question.html" class="nav-link">Задать вопрос</a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск" id="searchInput">
+                <button class="search-btn" aria-label="Поиск">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Secondary Navigation (Blue Bar) -->
+    <div class="secondary-nav">
+        <div class="container">
+            <div class="secondary-nav-links">
+                <a href="licenses.html" class="secondary-nav-link">Лицензии и аккредитации</a>
+                <a href="safety.html" class="secondary-nav-link active">Обучение по охране труда</a>
+                <a href="professions.html" class="secondary-nav-link">Профессиональное обучение</a>
+                <a href="documentation.html" class="secondary-nav-link">Разработка документации</a>
+                <a href="audit.html" class="secondary-nav-link">Аудит охраны труда</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Учебный центр дополнительного профессионального образования в Ижевске</h1>
+                <ul class="hero-features">
+                    <li><span class="bullet"></span>Официальные документы государственного образца</li>
+                    <li><span class="bullet"></span>Внесение данных в государственные реестры: ФИС ФРДО и Минтруд</li>
+                    <li><span class="bullet"></span>Более 50 образовательных программ на выбор</li>
+                    <li><span class="bullet"></span>Удобные форматы обучения: дистанционно и очно</li>
+                    <li><span class="bullet"></span>Ускоренное обучение для быстрого получения квалификации</li>
+                    <li><span class="bullet"></span>Доступная стоимость: курсы от 2 500 рублей</li>
+                    <li><span class="bullet"></span>Выгодные условия для групп: скидка 10% при записи от 3 человек</li>
+                </ul>
+                <a href="question.html" class="cta-btn">
+                    Оставить заявку
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 300 250" fill="none">
+                            <rect width="300" height="250" fill="#E0F2FE" />
+                            <circle cx="120" cy="80" r="50" fill="#93C572" opacity="0.3" />
+                            <rect x="70" y="130" width="100" height="80" rx="4" fill="#93C572" opacity="0.3" />
+                            <rect x="180" y="90" width="80" height="110" rx="6" fill="#FEF3C7" stroke="#F59E0B"
+                                stroke-width="2" />
+                            <rect x="192" y="105" width="56" height="5" fill="#F59E0B" opacity="0.5" />
+                            <rect x="192" y="118" width="48" height="4" fill="#F59E0B" opacity="0.3" />
+                            <rect x="192" y="130" width="44" height="4" fill="#F59E0B" opacity="0.3" />
+                            <rect x="192" y="142" width="50" height="4" fill="#F59E0B" opacity="0.3" />
+                            <circle cx="220" cy="175" r="16" fill="#DC2626" opacity="0.8" />
+                            <text x="214" y="180" fill="white" font-size="14" font-weight="bold">✓</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="docs-caption">
+                    <p>После обучения вы получите полный комплект документов установленного образца, принимаемых всеми
+                        работодателями страны</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Bar -->
+    <section class="features-bar">
+        <div class="container features-content">
+            <div class="feature-item">
+                <div class="feature-icon blue">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="18" r="10" stroke="currentColor" stroke-width="2" />
+                        <path d="M12 42c0-8 5-14 12-14s12 6 12 14" stroke="currentColor" stroke-width="2" />
+                        <path d="M32 18l4-4M32 14l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="feature-text">
+                    <strong>Повысим квалификацию всех сотрудников</strong>
+                    <span>Обучим новой профессии с нуля</span>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon orange">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <rect x="8" y="12" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2" />
+                        <path d="M8 18h32" stroke="currentColor" stroke-width="2" />
+                        <path d="M16 28l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="feature-text">
+                    <strong>Бесплатная доставка документов</strong>
+                    <span>По всей России</span>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon green">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2" />
+                        <path d="M24 14v10l7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="feature-text">
+                    <strong>Гибкая форма обучения</strong>
+                    <span>Без отрыва от производства</span>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon purple">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2" />
+                        <path d="M16 20l6 6 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="feature-text">
+                    <strong>Только официальные удостоверения</strong>
+                    <span>На основе образовательной лицензии</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>ООО "ВЕком" предлагает свои услуги по обучению руководителей, специалистов и рабочих по следующим
+                    направлениям:</h2>
+            </div>
+            <div class="courses-grid">
+                <a href="safety.html#general" class="course-card">
+                    <div class="course-image">
+                        <svg viewBox="0 0 200 150" fill="none">
+                            <rect width="200" height="150" fill="#E0F2FE" />
+                            <rect x="40" y="30" width="120" height="90" rx="8" fill="#93C572" opacity="0.3" />
+                            <rect x="55" y="50" width="90" height="10" fill="#93C572" opacity="0.5" />
+                            <rect x="55" y="70" width="70" height="8" fill="#93C572" opacity="0.4" />
+                            <rect x="55" y="90" width="80" height="8" fill="#93C572" opacity="0.4" />
+                        </svg>
+                    </div>
+                    <h3>Общие вопросы охраны труда и функционирования системы управления охраной труда</h3>
+                </a>
+                <a href="safety.html#firstaid" class="course-card">
+                    <div class="course-image">
+                        <svg viewBox="0 0 200 150" fill="none">
+                            <rect width="200" height="150" fill="#FEE2E2" />
+                            <circle cx="100" cy="75" r="40" fill="#EF4444" opacity="0.3" />
+                            <rect x="90" y="55" width="20" height="40" fill="#EF4444" />
+                            <rect x="80" y="65" width="40" height="20" fill="#EF4444" />
+                        </svg>
+                    </div>
+                    <h3>Обучение по оказанию первой помощи пострадавшим на производстве</h3>
+                </a>
+                <a href="safety.html#siz" class="course-card">
+                    <div class="course-image">
+                        <svg viewBox="0 0 200 150" fill="none">
+                            <rect width="200" height="150" fill="#FEF3C7" />
+                            <ellipse cx="100" cy="60" rx="35" ry="40" fill="#F59E0B" opacity="0.4" />
+                            <rect x="70" y="100" width="60" height="30" rx="4" fill="#F59E0B" opacity="0.3" />
+                        </svg>
+                    </div>
+                    <h3>Обучение по использованию (применению) средств индивидуальной защиты</h3>
+                </a>
+                <a href="safety.html#harmful" class="course-card">
+                    <div class="course-image">
+                        <svg viewBox="0 0 200 150" fill="none">
+                            <rect width="200" height="150" fill="#DCFCE7" />
+                            <path d="M100 30L140 100H60L100 30Z" fill="#22C55E" opacity="0.4" />
+                            <circle cx="100" cy="70" r="8" fill="#22C55E" />
+                            <rect x="96" y="80" width="8" height="15" fill="#22C55E" />
+                        </svg>
+                    </div>
+                    <h3>Безопасные методы и приемы выполнения работ при воздействии вредных и опасных факторов</h3>
+                </a>
+                <a href="safety.html#dangerous" class="course-card">
+                    <div class="course-image">
+                        <svg viewBox="0 0 200 150" fill="none">
+                            <rect width="200" height="150" fill="#FED7AA" />
+                            <circle cx="100" cy="75" r="45" stroke="#F97316" stroke-width="8" fill="none" />
+                            <line x1="70" y1="45" x2="130" y2="105" stroke="#F97316" stroke-width="8" />
+                        </svg>
+                    </div>
+                    <h3>Безопасные методы и приемы выполнения работ повышенной опасности</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <div class="quote-card">
+                <blockquote>
+                    <p>«Человеческая жизнь похожа на коробку спичек. Обращаться с ней серьёзно — смешно. Обращаться
+                        несерьёзно — опасно.»</p>
+                    <footer>— Рюноскэ Акутагава</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2>Почему с нами выгодно?</h2>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" />
+                            <path d="M16 24l6 6 10-12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Без отрыва от производства</h3>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" />
+                            <path d="M16 24l6 6 10-12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Гибкое ценообразование</h3>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" />
+                            <path d="M16 24l6 6 10-12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Высокая квалификация преподавателей</h3>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" />
+                            <path d="M16 24l6 6 10-12" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Выгодные условия сотрудничества</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon small">
+                        <svg viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="22" stroke="currentColor" stroke-width="3" />
+                            <circle cx="25" cy="25" r="14" stroke="currentColor" stroke-width="2" />
+                            <circle cx="25" cy="25" r="6" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">ВЕКОМ</span>
+                    </div>
+                </a>
+                <p>Почта для обращений</p>
+                <a href="mailto:info@vekom18.ru" class="footer-email">info@vekom18.ru</a>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">Сведения об образовательной организации</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="https://sdo.vekom-18.ru/" target="_blank">Войти в личный кабинет</a>
+                <a href="question.html">Задать вопрос</a>
+            </div>
+            <div class="footer-docs">
+                <a href="privacy.html">Политика конфиденциальности</a>
+                <a href="requisites.html">Реквизиты организации</a>
+            </div>
+            <div class="footer-contacts">
+                <p>Наш телефон:</p>
+                <a href="tel:+79090546505" class="footer-phone">8-909-054-65-05</a>
+                <a href="mailto:info@vekom18.ru">info@vekom18.ru</a>
+                <div class="footer-social">
+                    <a href="https://t.me/" target="_blank" class="social-link telegram" title="Telegram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/79090546505" target="_blank" class="social-link whatsapp" title="WhatsApp">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 ООО «ВЕком». Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Search Modal -->
+    <div class="modal" id="searchModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeSearchModal()">&times;</button>
+            <h3>Поиск по сайту</h3>
+            <input type="text" placeholder="Введите запрос..." id="modalSearchInput" class="modal-search-input">
+            <div class="search-results" id="searchResults"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
